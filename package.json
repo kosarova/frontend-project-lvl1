@@ -1,6 +1,9 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "description": "![Actions Status](/workflows/hexlet-check/badge.svg)",
   "main": "index.js",
   "type": "module",
@@ -11,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/kosarova/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "Roman Kobzarev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kosarova/frontend-project-lvl1/issues"
