@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-even": "bin/brain-even.js"
   },
   "description": "![Actions Status](/workflows/hexlet-check/badge.svg)",
   "main": "index.js",
@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/kosarova/frontend-project-lvl1#readme",
   "dependencies": {
-    "promptly": "^3.2.0"
+    "promptly": "^3.2.0",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
